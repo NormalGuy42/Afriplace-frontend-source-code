@@ -1,0 +1,147 @@
+/*Tab start*/
+section .tab{
+    padding: 20px 10px;
+}
+section .tab .search_field{
+    height: 45px;
+    width: 300px;
+    font-size: 20px;
+}
+section .tab .search_btn{
+    background-color: white;
+    height: 45px;
+    width: 100px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+/*Tab end*/
+/*Search Results start*/
+.searchresults_header{
+    padding: 5px 10px;
+}
+.searchresults_list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,25rem);
+    gap: 4.5rem;
+    align-items: flex-start;
+    justify-content: center;
+    padding-right: 20px;
+    padding-left: 20px
+}
+.searchresults_list .result_box{
+    background-color: white;
+    box-shadow: 0 0 12px 0 rgb(0 0 0 / 15%);
+    border-radius: 7px;
+    cursor: pointer;
+}
+/*Thumbnail image start*/
+.searchresults_list .result_box .thumb{
+    height: 14rem;
+    position: relative;
+}
+.searchresults_list .result_box .thumb img{
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    margin: 0;
+    border-radius: .5rem;
+    size-adjust: cover; 
+}
+/*Thumbnail image end*/
+/*Save button start*/
+.searchresults_list .result_box .box .thumb .save{
+    position: absolute;
+    top: 1rem; right: 1rem;
+}
+.searchresults_list .result_box .thumb .save button{
+    position: absolute;
+    right: 0rem;
+    background-color: transparent;
+    padding: .7rem 1rem;
+    font-size: 2.8rem;
+    cursor: pointer;
+    border: 0;
+    z-index: 1;
+}
+.searchresults_list .result_box  .thumb .save button svg{
+    height: 45px;
+    width: 45px;
+}
+.searchresults_list .result_box  .thumb .save button svg .HeartIcon_fill{
+    fill:transparent
+}
+.searchresults_list .result_box  .thumb .save svg:hover{
+    fill: rgb(240, 4, 4);
+}
+.searchresults_list .result_box  .thumb .save .HeartIcon_fill:hover{
+    fill: rgb(240, 4, 4);
+}
+/*Save button end*/
+/*Description start*/
+.searchresults_list .result_box .info_container{
+    padding: 2rem 2rem 10px;
+    padding-top:0;
+}
+.searchresults_list .result_box .prix {
+    font-size: 1.5rem;
+    text-overflow: ellipsis;
+    overflow-x: hidden;
+    color: #333;
+    margin-top: 7px;
+    font-weight: 600;
+}
+.searchresults_list .result_box .prix h3{
+    margin-bottom: 0px;
+}
+/*Flex container start*/
+.searchresults_list .result_box .flex{
+    display: block;
+    padding: 2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 25px;
+    white-space: nowrap;
+    color: #afa7a7;
+}
+.searchresults_list .result_box .flex span{
+    margin-top: 5px;
+}
+.searchresults_list .result_box span{
+    margin-right: 1rem;
+    padding: .5 1.5rem;
+}
+/*Flex container end*/
+.searchresults_list .result_box .info_container .text h4{
+    margin-bottom: 5px;
+    font-size: 19px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.searchresults_list .result_box .info_container .text p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 20px;
+}
+/*Description end*/
+/*Button start*/
+.btn.search{
+    display: flex;
+    justify-content: end;
+    padding-bottom: 15px;
+}
+.btn.search a.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 30px;
+    font-size:18px;
+}
+/*Button end*/
+/*Search Results end*/
+
+

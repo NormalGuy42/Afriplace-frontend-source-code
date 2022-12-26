@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/userpage.css">
+</head>
+<body>
+    
+    <header class="header_container">
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <div class="logo_area">
+                <a href="index.html"><span><label class="logo">afriplace</label></span></a>
+            </div>
+            <ul>
+                <li><a href="searchpage.html">Achetez</a></li>
+                <li><a href="searchpage.html">Louez</a></li>
+                <li><a href="register.html">Vendez</a></li>
+                <li><a href="contact.html">Contactez-nous</a></li>
+                <li>
+                    <div class="flag_area"><a href="#"></a><img src="assets/guinea.jpg"></div>
+                </li>
+                <li><a href="login.html">Connectez-vous</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!--CSS styles for this is inside userpage.css-->
+    <section>
+        <div class="contact_img">
+            <img src="./assets/darkoj.svg">
+        </div>
+        <form action="get" class="contact_form">
+            <div class="contact_row">
+                <div class="text-center">
+                    <h3>Envoyez nous un message</h3>
+                </div>
+                <label>Type de demande</label>
+                <select class="login_field contact">
+                    <option>Je veux lister ma propriété</option>
+                    <option>Demande d'information générale</option>
+                    <option>Question imporante</option>
+                    <option>Autre</option>
+                </select>
+            </div>
+            <div class="contact_group">
+                <div class="contact_row">
+                    <label>Nom</label>
+                    <input class="login_field contact" type="text" maxlength="30">
+                </div>
+                <div class="contact_row">
+                    <label>Prénom</label>
+                    <input class="login_field contact" type="text" maxlength="30"> 
+                </div>
+            </div>
+            <div class="contact_group">
+                <div class="contact_row">
+                    <label>Email</label>
+                    <input class="login_field contact" type="email" maxlength="50">
+                </div>          
+                <div class="contact_row">
+                    <label>Telephone</label>
+                    <input class="login_field contact" type="tel" maxlength="50">
+                </div>
+            </div>
+            <div class="contact_row">
+                <label>Votre message</label>
+                <textarea class= "login_field textarea"name="" id="" cols="30" rows="10" maxlength="1000"></textarea>
+            </div>
+            <div class="contact_button">
+                <button class="connexion contact">Envoyer</button>
+            </div>
+        </form>
+    </section>
+    <footer class="footer">
+        <section class="flex">
+            <div class="box">
+                <h2 style="color:grey">Nos contacts</h2>
+                <a href="tel:224622658967"><i class="fas fa-phone"></i><span>224622658967</span></a>
+                <a href="mailto:madioudiallo5742@gmail.com"><i class="fa fa-envelope"></i><span>madioudiallo5742@gmail.com</span></a>
+            </div>
+
+            <div class="box">
+                <h2 style="color:grey">Nos réseaux</h2>
+                <a href="#"><span>instagram</span><i class="fab fa-instagram"></i></a>
+                <a href="#"><span>facebook</span><i class="fab fa-facebook"></i></a>
+                <a href="#"><span>twitter</span><i class="fab fa-twitter"></i></a>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>

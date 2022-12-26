@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>afriplace</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/92960f12ec.js" crossorigin="anonymous"></script>
+    <!--FontAwesome-->
+    <!--Flag-->
+</head>
+
+<body>
+     <!--Header section starts-->
+     <div class="prez">
+        <div class="header_container">
+            <header>
+                <nav>
+                    <input type="checkbox" id="check">
+                    <label for="check" class="checkbtn">
+                        <i class="fas fa-bars"></i>
+                    </label>
+                    <div class="logo_area">
+                        <a href="index.html"><span><label class="logo">afriplace</label></span></a>
+                    </div>
+                    <ul class="nav_ul">
+                        <li><a href="searchpage.html">Achetez</a></li>
+                        <li><a href="searchpage.html">Louez</a></li>
+                        <li><a href="register.html">Vendez</a></li>
+                        <li><a href="contact.html">Contactez-nous</a></li>
+                        <li><a href="#"><img src="assets/guinea.jpg"></a></li>
+                        <li><a href="login.html">Connectez-vous</a></li>
+                    </ul>
+                    
+                </nav>
+            </header>
+         </div>
+       <div>
+        <!--Page d'acceuil commence-->
+        <div class="search_input">
+            <section class="form_section">
+                <div class="card_container">
+                <!--Form starts-->
+                <form action="get" class="form">
+                    
+                    <div class="row">
+                        <select name="type" id="" class="control">
+                            <option value="Appartement">Appartement</option>
+                            <option value="Maison">Maison</option>
+                            <option value="Hôtel">Hôtel</option>
+                            <option value="Terrain">Terrain</option>
+                            <option value="Bureaux">Bureaux</option>
+                            <option value="Motel">Motel</option>
+                            <option value="Tout">Tout bien</option>
+                        </select>
+                        <select name="action" id="" class="control">
+                            <option value="Louer">Louer</option>
+                            <option value="Acheter">Acheter</option>
+                            <option value="Tout-type">Tout type</option>
+                        </select>
+                        <input type="text" placeholder="entre un lieu" maxlength="30" class="control">
+                        <button class="form-control-button"><span>Cherche</span><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                  </form>
+                  <!--Form ends-->
+                </div>
+            </section>
+            </div>
+            <!--Page d'acceuil finit-->
+       </div>
+     </div>
+   <!--Cartes de navigation commence-->
+    <div class="nav">
+        <section class="navigation">
+            <h1 class="heading">Nos services</h1>
+            <div class="navigation_container">
+                <a href="searchpage.html" style="text-decoration: none;">
+                    <div class="box">
+                        <img src="assets/buy.png">
+                        <h3>Achetez une maison</h3>
+                        <p>Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. Iusto asperiores nisi illo 
+                        nulla neque commodi non. Quasi provident at rerum.</p>
+                        <button>Cherchez des maisons</button>
+                    </div>
+                </a>
+                <a href="searchpage.html"style="text-decoration: none;">
+                    <div class="box">
+                        <img src="assets/rent.png">
+                        <h3>Louez une maison</h3>
+                        <p>Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. Iusto asperiores nisi illo 
+                        nulla neque commodi non. Quasi provident at rerum.</p>
+                        <button>Louez des biens</button>
+                    </div>
+                </a>
+                <a href="register.html"style="text-decoration: none;">
+                    <div class="box">
+                        <img src="assets/sell.png">
+                        <h3>Vendez une maison</h3>
+                        <p>Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. Iusto asperiores nisi illo 
+                        nulla neque commodi non. Quasi provident at rerum.</p>
+                        <button>Vendez vos biens</button>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </div>
+    <!--Cartes de navigation finissent-->
+    <!--Nouveautés commencent-->
+    <div class="nouv">
+        <section class="listings">
+            <h1 class="heading">Nouveautés</h1>
+            <div class="listings_container">
+                <div class="box">
+                    <div class="thumb">
+                        <form action="get" method="post" class="save">
+                            <button type="submit" name="save">
+                                <svg viewBox="0 0 24 22">
+                                    <path class="HeartIcon_fill"
+                                        d="M17.3996 6.17511e-05C15.5119 0.00908657 13.7078 0.779206 12.3955 2.13608L11.9995 2.54408L11.6035 
+                                        2.13608C10.2912 0.779206 8.48708 0.00908657 6.59946 6.17511e-05C5.15317 -0.00630912 3.7479 0.480456 
+                                        2.61543 1.38007C1.08163 2.60976 0.137114 4.42893 0.0137749 6.39093C-0.109564 8.35294 0.5997 10.2761 
+                                        1.96743 11.6882L2.51943 12.2522L11.3995 21.3482C11.5575 21.5095 11.7738 21.6004 11.9995 21.6004C12.2253 
+                                        21.6004 12.4415 21.5095 12.5995 21.3482L21.4796 12.2522L22.0316 11.6882C23.3993 10.2761 24.1086 8.35294 
+                                        23.9852 6.39093C23.8619 4.42893 22.9174 2.60976 21.3836 1.38007C20.2511 0.480456 18.8458 -0.00630912 17.3996 
+                                        6.17511e-05Z">
+                                    </path>
+                                    <path class="HeartIcon_outline"
+                                        d="M12.3955 2.13608C13.7078 0.779206 15.5119 0.00908657 17.3996 6.17511e-05C18.8458 -0.00630912 
+                                        20.2511 0.480456 21.3836 1.38007C22.9174 2.60976 23.8619 4.42893 23.9852 6.39093C24.1086 8.35294 
+                                        23.3993 10.2761 22.0316 11.6882L21.4796 12.2522L12.5995 21.3482C12.4415 21.5095 12.2253 21.6004 
+                                        11.9995 21.6004C11.7738 21.6004 11.5575 21.5095 11.3995 21.3482L2.51943 12.2522L1.96743 11.6882C0.5997 
+                                        10.2761 -0.109564 8.35294 0.0137748 6.39093C0.137114 4.42893 1.08163 2.60976 2.61543 1.38007C3.7479 
+                                        0.480456 5.15317 -0.00630912 6.59946 6.17511e-05C8.48708 0.00908657 10.2912 0.779206 11.6035 2.13608L11.9995 
+                                        2.54408L12.3955 2.13608ZM19.8956 3.25208C19.1854 2.69122 18.3045 2.39053 17.3996 2.40008C16.1576 2.41525 14.9717 
+                                        2.91978 14.0995 3.80409L13.7155 4.21209L12.4315 5.5321C12.1927 5.77011 11.8063 5.77011 11.5675 5.5321L10.2835 4.21209L9.8995 
+                                        3.80409C9.0273 2.91978 7.84145 2.41525 6.59947 2.40008C5.69165 2.39734 4.81045 2.70661 4.10345 3.27608C3.09352 4.06928 2.47292 
+                                        5.25804 2.39944 6.54011C2.31914 7.81608 2.78104 9.06669 3.67145 9.98414L4.22345 10.5601L11.9995 18.5162L19.8476 10.5601L20.3996 
+                                        9.98414C21.2638 9.05458 21.6991 7.80545 21.5996 6.54011C21.5329 5.2495 20.9116 4.05071 19.8956 3.25208Z">
+                                    </path>
+                                </svg>
+                            </button>
+                        </form>
+                        <img src="assets/living.jpg">
+                    </div>
+                    <div class="info_container">
+                        <h3 class="prix">230.000.000 GNF</h3>
+                    <div class="flex_container">
+                        <div class="flex">
+                            <span><i class="fas fa-map-marker-alt"></i> Lambagny</span>
+                            <span><i class="fas fa-bed"></i> 2</span>
+                            <span><i class="fas fa-bath"></i> 3</span>
+                            <span><i class="fas fa-square"></i> 750m<sup>2</sup></span>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <h4>Apparts à louer</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla beatae, excepturi 
+                        esse tempore officia ducimus consectetur debitis id harum culpa.</p>
+                    </div>
+                    </div>
+                    <div class="btn">
+                        <a href="#" class="btn">voir bien</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="thumb">
+                        <form action="get" method="post" class="save">
+                            <button type="submit" name="save">
+                                <svg viewBox="0 0 24 22">
+                                    <path class="HeartIcon_fill"
+                                        d="M17.3996 6.17511e-05C15.5119 0.00908657 13.7078 0.779206 12.3955 2.13608L11.9995 2.54408L11.6035 
+                                        2.13608C10.2912 0.779206 8.48708 0.00908657 6.59946 6.17511e-05C5.15317 -0.00630912 3.7479 0.480456 
+                                        2.61543 1.38007C1.08163 2.60976 0.137114 4.42893 0.0137749 6.39093C-0.109564 8.35294 0.5997 10.2761 
+                                        1.96743 11.6882L2.51943 12.2522L11.3995 21.3482C11.5575 21.5095 11.7738 21.6004 11.9995 21.6004C12.2253 
+                                        21.6004 12.4415 21.5095 12.5995 21.3482L21.4796 12.2522L22.0316 11.6882C23.3993 10.2761 24.1086 8.35294 
+                                        23.9852 6.39093C23.8619 4.42893 22.9174 2.60976 21.3836 1.38007C20.2511 0.480456 18.8458 -0.00630912 17.3996 
+                                        6.17511e-05Z">
+                                    </path>
+                                    <path class="HeartIcon_outline"
+                                        d="M12.3955 2.13608C13.7078 0.779206 15.5119 0.00908657 17.3996 6.17511e-05C18.8458 -0.00630912 
+                                        20.2511 0.480456 21.3836 1.38007C22.9174 2.60976 23.8619 4.42893 23.9852 6.39093C24.1086 8.35294 
+                                        23.3993 10.2761 22.0316 11.6882L21.4796 12.2522L12.5995 21.3482C12.4415 21.5095 12.2253 21.6004 
+                                        11.9995 21.6004C11.7738 21.6004 11.5575 21.5095 11.3995 21.3482L2.51943 12.2522L1.96743 11.6882C0.5997 
+                                        10.2761 -0.109564 8.35294 0.0137748 6.39093C0.137114 4.42893 1.08163 2.60976 2.61543 1.38007C3.7479 
+                                        0.480456 5.15317 -0.00630912 6.59946 6.17511e-05C8.48708 0.00908657 10.2912 0.779206 11.6035 2.13608L11.9995 
+                                        2.54408L12.3955 2.13608ZM19.8956 3.25208C19.1854 2.69122 18.3045 2.39053 17.3996 2.40008C16.1576 2.41525 14.9717 
+                                        2.91978 14.0995 3.80409L13.7155 4.21209L12.4315 5.5321C12.1927 5.77011 11.8063 5.77011 11.5675 5.5321L10.2835 4.21209L9.8995 
+                                        3.80409C9.0273 2.91978 7.84145 2.41525 6.59947 2.40008C5.69165 2.39734 4.81045 2.70661 4.10345 3.27608C3.09352 4.06928 2.47292 
+                                        5.25804 2.39944 6.54011C2.31914 7.81608 2.78104 9.06669 3.67145 9.98414L4.22345 10.5601L11.9995 18.5162L19.8476 10.5601L20.3996 
+                                        9.98414C21.2638 9.05458 21.6991 7.80545 21.5996 6.54011C21.5329 5.2495 20.9116 4.05071 19.8956 3.25208Z">
+                                    </path>
+                                </svg>
+                            </button>
+                        </form>
+                        <img src="assets/living.jpg">
+                    </div>
+                    <div class="info_container">
+                        <h3 class="prix">230.000.000 GNF</h3>
+                        <div class="flex_container">
+                            <div class="flex">
+                                <span><i class="fas fa-map-marker-alt"></i> Lambagny</span>
+                                <span><i class="fas fa-bed"></i> 2</span>
+                                <span><i class="fas fa-bath"></i> 3</span>
+                                <span><i class="fas fa-square"></i> 750m<sup>2</sup></span>
+                            </div>
+                        </div>
+                    <div class="text">
+                        <h4>Apparts à louer</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla beatae, excepturi 
+                        esse tempore officia ducimus consectetur debitis id harum culpa.</p>
+                    </div>
+                    </div>
+                    <div class="btn">
+                        <a href="#" class="btn">voir bien</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="thumb">
+                        <form action="get" method="post" class="save">
+                            <button type="submit" name="save">
+                                <svg viewBox="0 0 24 22">
+                                    <path class="HeartIcon_fill"
+                                        d="M17.3996 6.17511e-05C15.5119 0.00908657 13.7078 0.779206 12.3955 2.13608L11.9995 2.54408L11.6035 
+                                        2.13608C10.2912 0.779206 8.48708 0.00908657 6.59946 6.17511e-05C5.15317 -0.00630912 3.7479 0.480456 
+                                        2.61543 1.38007C1.08163 2.60976 0.137114 4.42893 0.0137749 6.39093C-0.109564 8.35294 0.5997 10.2761 
+                                        1.96743 11.6882L2.51943 12.2522L11.3995 21.3482C11.5575 21.5095 11.7738 21.6004 11.9995 21.6004C12.2253 
+                                        21.6004 12.4415 21.5095 12.5995 21.3482L21.4796 12.2522L22.0316 11.6882C23.3993 10.2761 24.1086 8.35294 
+                                        23.9852 6.39093C23.8619 4.42893 22.9174 2.60976 21.3836 1.38007C20.2511 0.480456 18.8458 -0.00630912 17.3996 
+                                        6.17511e-05Z">
+                                    </path>
+                                    <path class="HeartIcon_outline"
+                                        d="M12.3955 2.13608C13.7078 0.779206 15.5119 0.00908657 17.3996 6.17511e-05C18.8458 -0.00630912 
+                                        20.2511 0.480456 21.3836 1.38007C22.9174 2.60976 23.8619 4.42893 23.9852 6.39093C24.1086 8.35294 
+                                        23.3993 10.2761 22.0316 11.6882L21.4796 12.2522L12.5995 21.3482C12.4415 21.5095 12.2253 21.6004 
+                                        11.9995 21.6004C11.7738 21.6004 11.5575 21.5095 11.3995 21.3482L2.51943 12.2522L1.96743 11.6882C0.5997 
+                                        10.2761 -0.109564 8.35294 0.0137748 6.39093C0.137114 4.42893 1.08163 2.60976 2.61543 1.38007C3.7479 
+                                        0.480456 5.15317 -0.00630912 6.59946 6.17511e-05C8.48708 0.00908657 10.2912 0.779206 11.6035 2.13608L11.9995 
+                                        2.54408L12.3955 2.13608ZM19.8956 3.25208C19.1854 2.69122 18.3045 2.39053 17.3996 2.40008C16.1576 2.41525 14.9717 
+                                        2.91978 14.0995 3.80409L13.7155 4.21209L12.4315 5.5321C12.1927 5.77011 11.8063 5.77011 11.5675 5.5321L10.2835 4.21209L9.8995 
+                                        3.80409C9.0273 2.91978 7.84145 2.41525 6.59947 2.40008C5.69165 2.39734 4.81045 2.70661 4.10345 3.27608C3.09352 4.06928 2.47292 
+                                        5.25804 2.39944 6.54011C2.31914 7.81608 2.78104 9.06669 3.67145 9.98414L4.22345 10.5601L11.9995 18.5162L19.8476 10.5601L20.3996 
+                                        9.98414C21.2638 9.05458 21.6991 7.80545 21.5996 6.54011C21.5329 5.2495 20.9116 4.05071 19.8956 3.25208Z">
+                                    </path>
+                                </svg>
+                            </button>
+                        </form>
+                        <img src="assets/living.jpg">
+                    </div>
+                    <div class="info_container">
+                        <h3 class="prix">230.000.000 GNF</h3>
+                        <div class="flex_container">
+                            <div class="flex">
+                                <span><i class="fas fa-map-marker-alt"></i> Lambagny</span>
+                                <span><i class="fas fa-bed"></i> 2</span>
+                                <span><i class="fas fa-bath"></i> 3</span>
+                                <span><i class="fas fa-square"></i> 750m<sup>2</sup></span>
+                            </div>
+                        </div>
+                    <div class="text">
+                        <h4>Apparts à louer</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla beatae, excepturi 
+                        esse tempore officia ducimus consectetur debitis id harum culpa.</p>
+                    </div>
+                    </div>
+                    <div class="btn">
+                        <a href="#" class="btn">voir bien</a>
+                    </div>
+                </div>
+            </div>
+            <div class="more">
+                <a href="#"><i class="fa-solid fa-angles-down"></i></a>
+            </div>
+        </section>
+    </div>
+    <!--Nouveautés finissent-->
+    <!--Newsletter starts-->
+    <section class="newsletter">
+
+        <form action="get">
+            <div class="box">
+                <h3>Abonnez vous à notre newsletter</h3>
+                <p>Ne manquez pas nos nouvelles annonces</p>
+                <div class="subbox">
+                    <input type="email" class="mailbox" placeholder="Votre email" maxlength="30">
+                    <button class="sub">Inscrivez-moi</button>
+                </div>
+            </div>
+        </form>
+    </section>
+    <!--Newsletter ends-->
+    <!--Stats start-->
+    <section class="stats">
+        <div class="cont">
+            <div class="thumb">
+                <div class="bgblack" ></div>
+                <div class="caption_container">
+                    <div class="caption">
+                        <h3>Maisons/Villa</h3>
+                        <p>20 biens(s)</p>
+                        <button>Explorez</button>
+                    </div>
+                </div>
+                <img src="assets/living.jpg">
+            </div>
+            <div class="thumb">
+                <div class="bgblack" ></div>
+                <div class="caption_container">
+                    <div class="caption">
+                        <h3>Appartements</h3>
+                        <p>20 biens(s)</p>
+                        <button>Explorez</button>
+                    </div>
+                </div>
+                <img src="assets/living.jpg">
+            </div>
+            <div class="thumb">
+                <div class="bgblack" ></div>
+                <div class="caption_container">
+                    <div class="caption">
+                        <h3>Terrains</h3>
+                        <p>20 biens(s)</p>
+                        <button>Explorez</button>
+                    </div>
+                </div>
+                <img src="assets/living.jpg">
+            </div>
+            <div class="thumb">
+                <div class="bgblack" ></div>
+                <div class="caption_container">
+                    <div class="caption">
+                        <h3>Bureaux</h3>
+                        <p>20 biens(s)</p>
+                        <button>Explorez</button>
+                    </div>
+                </div>
+                <img src="assets/living.jpg">
+            </div>
+        </div>
+    </section>
+    <!--Stats end-->
+    <!--footer starts-->
+    <footer class="footer">
+        <section class="flex">
+            <div class="box">
+                <h2 style="color:grey">Nos contacts</h2>
+                <a href="tel:224622658967"><i class="fas fa-phone"></i><span>224622658967</span></a>
+                <a href="mailto:madioudiallo5742@gmail.com"><i class="fa fa-envelope"></i><span>madioudiallo5742@gmail.com</span></a>
+            </div>
+
+            <div class="box">
+                <h2 style="color:grey">Nos réseaux</h2>
+                <a href="#"><span>instagram</span><i class="fab fa-instagram"></i></a>
+                <a href="#"><span>facebook</span><i class="fab fa-facebook"></i></a>
+                <a href="#"><span>twitter</span><i class="fab fa-twitter"></i></a>
+            </div>
+        </section>
+    </footer>
+    <!--footer-->
+</body>
+<script src="script.js"></script>
+</html>
+<!--
+    <div class="box">
+                <div class="thumb">
+                    <form action="get" method="post" class="save">
+                        <button type="submit" name="save" class="far fa-heart">
+                        </button>
+                    </form>
+                    <img src="assets/mg.jpg">
+                </div>
+                <h3 class="name">230.000.000 GNF</h3>
+                <div class="flex">
+                    <span><i class="fas fa-map-marker-alt"></i> Lambagny</span>
+                    <span><i class="fas fa-bed"></i> 2</span>
+                    <span><i class="fas fa-bath"></i> 3</span>
+                    <span><i class="fas fa-square"></i> 750m<sup>2</sup></span>
+                </div>
+                <h4>Apparts à louer</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla beatae, excepturi 
+                    esse tempore officia ducimus consectetur debitis id harum culpa.</p>
+                <div class="btn">
+                    <a href="#" class="btn">voir bien</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="thumb">
+                    <form action="get" method="post" class="save">
+                        <button type="submit" name="save" class="far fa-heart">
+                        </button>
+                    </form>
+                    <img src="assets/living.jpg">
+                </div>
+                <h3 class="name">230.000.000 GNF</h3>
+                <div class="flex">
+                    <span><i class="fas fa-map-marker-alt"></i> Lambagny</span>
+                    <span><i class="fas fa-bed"></i> 2</span>
+                    <span><i class="fas fa-bath"></i> 3</span>
+                    <span><i class="fas fa-square"></i> 750m<sup>2</sup></span>
+                </div>
+                <h4>Apparts à louer</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla beatae, excepturi 
+                    esse tempore officia ducimus consectetur debitis id harum culpa.</p>
+                <div class="btn">
+                    <a href="#" class="btn">voir bien</a>
+                </div>
+            </div>
+        </div>
+-->
